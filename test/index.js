@@ -18,7 +18,7 @@ describe('versioning', function(){
   });
 });
 
-var interfaces = ['info','clear','put','has','get','remove'];
+var interfaces = ['write','has','read','remove','clear','keys'];
 
 describe('published interface has', function(){
   _.each(interfaces, function(fxn){

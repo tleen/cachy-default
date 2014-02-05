@@ -1,9 +1,9 @@
 {
   "name" : "cachy-default",
-  "description" : "Default storage for cachy cache if none is given",
+  "description" : "Default storage for cachy cache if none is given (throws errors about storage config)",
   "main" : "./index",
   "author" : "Thomas Leen",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/tleen/cachy-default.git"
