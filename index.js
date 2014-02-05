@@ -18,6 +18,6 @@ module.exports = function(){
   }
 
   var exprt = {version : pkg.version};
-  _.each(['write','has','read','remove','clear','keys'], function(fxn){ exprt[fxn] = _.partial(failback, 'cachy ' + fxn); } );
+  _.each(['write','has','read','remove','clear','keys', 'size'], function(fxn){ exprt[fxn] = _.partial(failback, 'cachy ' + fxn); } );
   return exprt;
 };
